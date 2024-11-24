@@ -1,30 +1,184 @@
-[
-    {
-        "section": "القسم 1",
-        "channels": [
-            {
-                "name": "القناة 1-1",
-                "description": "وصف القناة 1-1",
-                "url": "https://example.com/section1/channel1.m3u8",
-                "logo": "https://via.placeholder.com/80?text=1-1"
-            },
-            {
-                "name": "القناة 1-2",
-                "description": "وصف القناة 1-2",
-                "url": "https://example.com/section1/channel2.m3u8",
-                "logo": "https://via.placeholder.com/80?text=1-2"
-            }
-            // إضافة المزيد من القنوات من 1-3 إلى 1-100
-        ]
-    },
-    {
-        "section": "القسم 2",
-        "channels": [
-            {
-                "name": "القناة 2-1",
-                "description": "وصف القناة 2-1",
-                "url": "https://example.com/section2/channel1.m3u8",
-                "logo": "https://via.placeholder.com/80?text=2-1"
-            },
-            {
-``` :name:, indent=True, json.dumps(mochannels
+{
+    "sections": [
+        {
+            "section": "Section 1",
+            "channels": [
+                {
+                    "name": "Channel 1-1",
+                    "description": "Description for Channel 1-1",
+                    "url": "http://example.com/channel1-1.m3u8",
+                    "logo": "http://example.com/logo1-1.png"
+                },
+                {
+                    "name": "Channel 1-2",
+                    "description": "Description for Channel 1-2",
+                    "url": "http://example.com/channel1-2.m3u8",
+                    "logo": "http://example.com/logo1-2.png"
+                },
+                // Add up to Channel 1-100
+            ]
+        },
+        {
+            "section": "Section 2",
+            "channels": [
+                {
+                    "name": "Channel 2-1",
+                    "description": "Description for Channel 2-1",
+                    "url": "http://example.com/channel2-1.m3u8",
+                    "logo": "http://example.com/logo2-1.png"
+                },
+                {
+                    "name": "Channel 2-2",
+                    "description": "Description for Channel 2-2",
+                    "url": "http://example.com/channel2-2.m3u8",
+                    "logo": "http://example.com/logo2-2.png"
+                },
+                // Add up to Channel 2-100
+            ]
+        },
+        {
+            "section": "Section 3",
+            "channels": [
+                {
+                    "name": "Channel 3-1",
+                    "description": "Description for Channel 3-1",
+                    "url": "http://example.com/channel3-1.m3u8",
+                    "logo": "http://example.com/logo3-1.png"
+                },
+                {
+                    "name": "Channel 3-2",
+                    "description": "Description for Channel 3-2",
+                    "url": "http://example.com/channel3-2.m3u8",
+                    "logo": "http://example.com/logo3-2.png"
+                },
+                // Add up to Channel 3-100
+            ]
+        },
+        {
+            "section": "Section 4",
+            "channels": [
+                {
+                    "name": "Channel 4-1",
+                    "description": "Description for Channel 4-1",
+                    "url": "http://example.com/channel4-1.m3u8",
+                    "logo": "http://example.com/logo4-1.png"
+                },
+                {
+                    "name": "Channel 4-2",
+                    "description": "Description for Channel 4-2",
+                    "url": "http://example.com/channel4-2.m3u8",
+                    "logo": "http://example.com/logo4-2.png"
+                },
+                // Add up to Channel 4-100
+            ]
+        },
+        {
+            "section": "Section 5",
+            "channels": [
+                {
+                    "name": "Channel 5-1",
+                    "description": "Description for Channel 5-1",
+                    "url": "http://example.com/channel5-1.m3u8",
+                    "logo": "http://example.com/logo5-1.png"
+                },
+                {
+                    "name": "Channel 5-2",
+                    "description": "Description for Channel 5-2",
+                    "url": "http://example.com/channel5-2.m3u8",
+                    "logo": "http://example.com/logo5-2.png"
+                },
+                // Add up to Channel 5-100
+            ]
+        },
+        {
+            "section": "Section 6",
+            "channels": [
+                {
+                    "name": "Channel 6-1",
+                    "description": "Description for Channel 6-1",
+                    "url": "http://example.com/channel6-1.m3u8",
+                    "logo": "http://example.com/logo6-1.png"
+                },
+                {
+                    "name": "Channel 6-2",
+                    "description": "Description for Channel 6-2",
+                    "url": "http://example.com/channel6-2.m3u8",
+                    "logo": "http://example.com/logo6-2.png"
+                },
+                // Add up to Channel 6-100
+            ]
+        },
+        {
+            "section": "Section 7",
+            "channels": [
+                {
+                    "name": "Channel 7-1",
+                    "description": "Description for Channel 7-1",
+                    "url": "http://example.com/channel7-1.m3u8",
+                    "logo": "http://example.com/logo7-1.png"
+                },
+                {
+                    "name": "Channel 7-2",
+                    "description": "Description for Channel 7-2",
+                    "url": "http://example.com/channel7-2.m3u8",
+                    "logo": "http://example.com/logo7-2.png"
+                },
+                // Add up to Channel 7-100
+            ]
+        },
+        {
+            "section": "Section 8",
+            "channels": [
+                {
+                    "name": "Channel 8-1",
+                    "description": "Description for Channel 8-1",
+                    "url": "http://example.com/channel8-1.m3u8",
+                    "logo": "http://example.com/logo8-1.png"
+                },
+                {
+                    "name": "Channel 8-2",
+                    "description": "Description for Channel 8-2",
+                    "url": "http://example.com/channel8-2.m3u8",
+                    "logo": "http://example.com/logo8-2.png"
+                },
+                // Add up to Channel 8-100
+            ]
+        },
+        {
+            "section": "Section 9",
+            "channels": [
+                {
+                    "name": "Channel 9-1",
+                    "description": "Description for Channel 9-1",
+                    "url": "http://example.com/channel9-1.m3u8",
+                    "logo": "http://example.com/logo9-1.png"
+                },
+                {
+                    "name": "Channel 9-2",
+                    "description": "Description for Channel 9-2",
+                    "url": "http://example.com/channel9-2.m3u8",
+                    "logo": "http://example.com/logo9-2.png"
+                },
+                // Add up to Channel 9-100
+            ]
+        },
+        {
+            "section": "Section 10",
+            "channels": [
+                {
+                    "name": "Channel 10-1",
+                    "description": "Description for Channel 10-1",
+                    "url": "http://example.com/channel10-1.m3u8",
+                    "logo": "http://example.com/logo10-1.png"
+                },
+                {
+                    "name": "Channel 10-2",
+                    "description": "Description for Channel 10-2",
+                    "url": "http://example.com/channel10-2.m3u8",
+                    "logo": "http://example.com/logo10-2.png"
+                },
+                // Add up to Channel 10-100
+            ]
+        }
+    ]
+}
