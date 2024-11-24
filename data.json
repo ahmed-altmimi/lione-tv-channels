@@ -1,10 +1,34 @@
 [
-    { "title": "القسم 1", "channels": [
-        { "name": "قناة 1", "logo": "https://c.top4top.io/p_3249gul1x1.jpg", "m3u8": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8" },
-        { "name": "قناة 2", "logo": "logo2.png", "m3u8": "https://example.com/stream2.m3u8" }
-    ]},
-    { "title": "القسم 2", "channels": [
-        { "name": "قناة 3", "logo": "logo3.png", "m3u8": "https://example.com/stream3.m3u8" },
-        { "name": "قناة 4", "logo": "logo4.png", "m3u8": "https://example.com/stream4.m3u8" }
-    ]}
+    { 
+        "title": "القسم 1", 
+        "logo": "https://example.com/section1-logo.png",  // شعار القسم 1
+        "channels": [
+            { 
+                "name": "قناة 1", 
+                "logo": "https://c.top4top.io/p_3249gul1x1.jpg", 
+                "m3u8": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8" 
+            },
+            { 
+                "name": "قناة 2", 
+                "logo": "https://example.com/logo2.png", 
+                "m3u8": "https://example.com/stream2.m3u8" 
+            }
+        ]
+    },
+    { 
+        "title": "القسم 2", 
+        "logo": "https://example.com/section2-logo.png",  // شعار القسم 2
+        "channels": [
+            { 
+                "name": "قناة 3", 
+                "logo": "https://example.com/logo3.png", 
+                "m3u8": "https://example.com/stream3.m3u8" 
+            },
+            { 
+                "name": "قناة 4", 
+                "logo": "https://example.com/logo4.png", 
+                "m3u8": "https://example.com/stream4.m3u8" 
+            }
+        ]
+    }
 ]
