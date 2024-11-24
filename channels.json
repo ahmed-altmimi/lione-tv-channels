@@ -1,17 +1,82 @@
 [
-  {
-    "title": "القسم 1",
-    "channels": [
-      {
-        "name": "قناة 1",
-        "logo": "رابط الشعار",
-        "m3u8": "رابط القناة"
-      },
-      {
-        "name": "قناة 2",
-        "logo": "رابط الشعار",
-        "m3u8": "رابط القناة"
-      }
-    ]
-  }
+    {
+        "title": "رياضة",
+        "channels": [
+            {
+                "name": "قناة الرياضة 1",
+                "logo": "https://via.placeholder.com/150?text=Logo+1",
+                "m3u8": "https://example.com/stream1.m3u8"
+            },
+            {
+                "name": "قناة الرياضة 2",
+                "logo": "https://via.placeholder.com/150?text=Logo+2",
+                "m3u8": "https://example.com/stream2.m3u8"
+            },
+            // إضافة المزيد من القنوات هنا
+        ]
+    },
+    {
+        "title": "أفلام",
+        "channels": [
+            {
+                "name": "قناة الأفلام 1",
+                "logo": "https://via.placeholder.com/150?text=Logo+3",
+                "m3u8": "https://example.com/stream3.m3u8"
+            },
+            {
+                "name": "قناة الأفلام 2",
+                "logo": "https://via.placeholder.com/150?text=Logo+4",
+                "m3u8": "https://example.com/stream4.m3u8"
+            },
+            // إضافة المزيد من القنوات هنا
+        ]
+    },
+    {
+        "title": "عربية",
+        "channels": [
+            {
+                "name": "قناة عربية 1",
+                "logo": "https://via.placeholder.com/150?text=Logo+5",
+                "m3u8": "https://example.com/stream5.m3u8"
+            },
+            {
+                "name": "قناة عربية 2",
+                "logo": "https://via.placeholder.com/150?text=Logo+6",
+                "m3u8": "https://example.com/stream6.m3u8"
+            },
+            // إضافة المزيد من القنوات هنا
+        ]
+    },
+    {
+        "title": "أجنبية",
+        "channels": [
+            {
+                "name": "قناة أجنبية 1",
+                "logo": "https://via.placeholder.com/150?text=Logo+7",
+                "m3u8": "https://example.com/stream7.m3u8"
+            },
+            {
+                "name": "قناة أجنبية 2",
+                "logo": "https://via.placeholder.com/150?text=Logo+8",
+                "m3u8": "https://example.com/stream8.m3u8"
+            },
+            // إضافة المزيد من القنوات هنا
+        ]
+    },
+    {
+        "title": "عالمية",
+        "channels": [
+            {
+                "name": "قناة عالمية 1",
+                "logo": "https://via.placeholder.com/150?text=Logo+9",
+                "m3u8": "https://example.com/stream9.m3u8"
+            },
+            {
+                "name": "قناة عالمية 2",
+                "logo": "https://via.placeholder.com/150?text=Logo+10",
+                "m3u8": "https://example.com/stream10.m3u8"
+            },
+            // إضافة المزيد من القنوات هنا
+        ]
+    }
 ]
