@@ -1,30 +1,30 @@
 [
-  {
-    "section": "القسم 1",
-    "channels": [
-      {
-        "name": "قناة 1-1",
-        "description": "الوصف: قناة 1-1",
-        "logo": "https://via.placeholder.com/80?text=Channel+1-1",
-        "url": "https://example.com/section1/channel1.m3u8"
-      },
-      {
-        "name": "قناة 1-2",
-        "description": "الوصف: قناة 1-2",
-        "logo": "https://via.placeholder.com/80?text=Channel+1-2",
-        "url": "https://example.com/section1/channel2.m3u8"
-      }
-    ]
-  },
-  {
-    "section": "القسم 2",
-    "channels": [
-      {
-        "name": "قناة 2-1",
-        "description": "الوصف: قناة 2-1",
-        "logo": "https://via.placeholder.com/80?text=Channel+2-1",
-        "url": "https://example.com/section2/channel1.m3u8"
-      }
-    ]
-  }
-]
+    {
+        "section": "القسم 1",
+        "channels": [
+            {
+                "name": "القناة 1-1",
+                "description": "وصف القناة 1-1",
+                "url": "https://example.com/section1/channel1.m3u8",
+                "logo": "https://via.placeholder.com/80?text=1-1"
+            },
+            {
+                "name": "القناة 1-2",
+                "description": "وصف القناة 1-2",
+                "url": "https://example.com/section1/channel2.m3u8",
+                "logo": "https://via.placeholder.com/80?text=1-2"
+            }
+            // إضافة المزيد من القنوات من 1-3 إلى 1-100
+        ]
+    },
+    {
+        "section": "القسم 2",
+        "channels": [
+            {
+                "name": "القناة 2-1",
+                "description": "وصف القناة 2-1",
+                "url": "https://example.com/section2/channel1.m3u8",
+                "logo": "https://via.placeholder.com/80?text=2-1"
+            },
+            {
+``` :name:, indent=True, json.dumps(mochannels
