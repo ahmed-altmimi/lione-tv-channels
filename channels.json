@@ -1,35 +1,125 @@
-[
+{
+  "sections": [
     {
-        "title": "رياضة",
-        "channels": [
-            {
-                "name": "قناة الرياضة 1",
-                "logo": "https://via.placeholder.com/150?text=Logo+1",
-                "m3u8": "https://example.com/stream1.m3u8"
-            },
-            {
-                "name": "قناة الرياضة 2",
-                "logo": "https://via.placeholder.com/150?text=Logo+2",
-                "m3u8": "https://example.com/stream2.m3u8"
-            }
-            // أضف 100 قناة في هذا القسم
-        ]
+      "title": "القسم 1",
+      "channels": [
+        { "name": "قناة 1", "logo": "https://placehold.it/100x100?text=Logo1", "m3u8": "https://path.to.stream/channel1.m3u8" },
+        { "name": "قناة 2", "logo": "https://placehold.it/100x100?text=Logo2", "m3u8": "https://path.to.stream/channel2.m3u8" },
+        { "name": "قناة 3", "logo": "https://placehold.it/100x100?text=Logo3", "m3u8": "https://path.to.stream/channel3.m3u8" },
+        { "name": "قناة 4", "logo": "https://placehold.it/100x100?text=Logo4", "m3u8": "https://path.to.stream/channel4.m3u8" },
+        { "name": "قناة 5", "logo": "https://placehold.it/100x100?text=Logo5", "m3u8": "https://path.to.stream/channel5.m3u8" },
+        { "name": "قناة 6", "logo": "https://placehold.it/100x100?text=Logo6", "m3u8": "https://path.to.stream/channel6.m3u8" },
+        { "name": "قناة 7", "logo": "https://placehold.it/100x100?text=Logo7", "m3u8": "https://path.to.stream/channel7.m3u8" },
+        { "name": "قناة 8", "logo": "https://placehold.it/100x100?text=Logo8", "m3u8": "https://path.to.stream/channel8.m3u8" },
+        { "name": "قناة 9", "logo": "https://placehold.it/100x100?text=Logo9", "m3u8": "https://path.to.stream/channel9.m3u8" },
+        { "name": "قناة 10", "logo": "https://placehold.it/100x100?text=Logo10", "m3u8": "https://path.to.stream/channel10.m3u8" },
+        { "name": "قناة 11", "logo": "https://placehold.it/100x100?text=Logo11", "m3u8": "https://path.to.stream/channel11.m3u8" },
+        { "name": "قناة 12", "logo": "https://placehold.it/100x100?text=Logo12", "m3u8": "https://path.to.stream/channel12.m3u8" },
+        { "name": "قناة 13", "logo": "https://placehold.it/100x100?text=Logo13", "m3u8": "https://path.to.stream/channel13.m3u8" },
+        { "name": "قناة 14", "logo": "https://placehold.it/100x100?text=Logo14", "m3u8": "https://path.to.stream/channel14.m3u8" },
+        { "name": "قناة 15", "logo": "https://placehold.it/100x100?text=Logo15", "m3u8": "https://path.to.stream/channel15.m3u8" },
+        { "name": "قناة 16", "logo": "https://placehold.it/100x100?text=Logo16", "m3u8": "https://path.to.stream/channel16.m3u8" },
+        { "name": "قناة 17", "logo": "https://placehold.it/100x100?text=Logo17", "m3u8": "https://path.to.stream/channel17.m3u8" },
+        { "name": "قناة 18", "logo": "https://placehold.it/100x100?text=Logo18", "m3u8": "https://path.to.stream/channel18.m3u8" },
+        { "name": "قناة 19", "logo": "https://placehold.it/100x100?text=Logo19", "m3u8": "https://path.to.stream/channel19.m3u8" },
+        { "name": "قناة 20", "logo": "https://placehold.it/100x100?text=Logo20", "m3u8": "https://path.to.stream/channel20.m3u8" },
+        { "name": "قناة 21", "logo": "https://placehold.it/100x100?text=Logo21", "m3u8": "https://path.to.stream/channel21.m3u8" },
+        { "name": "قناة 22", "logo": "https://placehold.it/100x100?text=Logo22", "m3u8": "https://path.to.stream/channel22.m3u8" },
+        { "name": "قناة 23", "logo": "https://placehold.it/100x100?text=Logo23", "m3u8": "https://path.to.stream/channel23.m3u8" },
+        { "name": "قناة 24", "logo": "https://placehold.it/100x100?text=Logo24", "m3u8": "https://path.to.stream/channel24.m3u8" },
+        { "name": "قناة 25", "logo": "https://placehold.it/100x100?text=Logo25", "m3u8": "https://path.to.stream/channel25.m3u8" },
+        { "name": "قناة 26", "logo": "https://placehold.it/100x100?text=Logo26", "m3u8": "https://path.to.stream/channel26.m3u8" },
+        { "name": "قناة 27", "logo": "https://placehold.it/100x100?text=Logo27", "m3u8": "https://path.to.stream/channel27.m3u8" },
+        { "name": "قناة 28", "logo": "https://placehold.it/100x100?text=Logo28", "m3u8": "https://path.to.stream/channel28.m3u8" },
+        { "name": "قناة 29", "logo": "https://placehold.it/100x100?text=Logo29", "m3u8": "https://path.to.stream/channel29.m3u8" },
+        { "name": "قناة 30", "logo": "https://placehold.it/100x100?text=Logo30", "m3u8": "https://path.to.stream/channel30.m3u8" },
+        { "name": "قناة 31", "logo": "https://placehold.it/100x100?text=Logo31", "m3u8": "https://path.to.stream/channel31.m3u8" },
+        { "name": "قناة 32", "logo": "https://placehold.it/100x100?text=Logo32", "m3u8": "https://path.to.stream/channel32.m3u8" },
+        { "name": "قناة 33", "logo": "https://placehold.it/100x100?text=Logo33", "m3u8": "https://path.to.stream/channel33.m3u8" },
+        { "name": "قناة 34", "logo": "https://placehold.it/100x100?text=Logo34", "m3u8": "https://path.to.stream/channel34.m3u8" },
+        { "name": "قناة 35", "logo": "https://placehold.it/100x100?text=Logo35", "m3u8": "https://path.to.stream/channel35.m3u8" },
+        { "name": "قناة 36", "logo": "https://placehold.it/100x100?text=Logo36", "m3u8": "https://path.to.stream/channel36.m3u8" },
+        { "name": "قناة 37", "logo": "https://placehold.it/100x100?text=Logo37", "m3u8": "https://path.to.stream/channel37.m3u8" },
+        { "name": "قناة 38", "logo": "https://placehold.it/100x100?text=Logo38", "m3u8": "https://path.to.stream/channel38.m3u8" },
+        { "name": "قناة 39", "logo": "https://placehold.it/100x100?text=Logo39", "m3u8": "https://path.to.stream/channel39.m3u8" },
+        { "name": "قناة 40", "logo": "https://placehold.it/100x100?text=Logo40", "m3u8": "https://path.to.stream/channel40.m3u8" },
+        { "name": "قناة 41", "logo": "https://placehold.it/100x100?text=Logo41", "m3u8": "https://path.to.stream/channel41.m3u8" },
+        { "name": "قناة 42", "logo": "https://placehold.it/100x100?text=Logo42", "m3u8": "https://path.to.stream/channel42.m3u8" },
+        { "name": "قناة 43", "logo": "https://placehold.it/100x100?text=Logo43", "m3u8": "https://path.to.stream/channel43.m3u8" },
+        { "name": "قناة 44", "logo": "https://placehold.it/100x100?text=Logo44", "m3u8": "https://path.to.stream/channel44.m3u8" },
+        { "name": "قناة 45", "logo": "https://placehold.it/100x100?text=Logo45", "m3u8": "https://path.to.stream/channel45.m3u8" },
+        { "name": "قناة 46", "logo": "https://placehold.it/100x100?text=Logo46", "m3u8": "https://path.to.stream/channel46.m3u8" },
+        { "name": "قناة 47", "logo": "https://placehold.it/100x100?text=Logo47", "m3u8": "https://path.to.stream/channel47.m3u8" },
+        { "name": "قناة 48", "logo": "https://placehold.it/100x100?text=Logo48", "m3u8": "https://path.to.stream/channel48.m3u8" },
+        { "name": "قناة 49", "logo": "https://placehold.it/100x100?text=Logo49", "m3u8": "https://path.to.stream/channel49.m3u8" },
+        { "name": "قناة 50", "logo": "https://placehold.it/100x100?text=Logo50", "m3u8": "https://path.to.stream/channel50.m3u8" },
+        { "name": "قناة 51", "logo": "https://placehold.it/100x100?text=Logo51", "m3u8": "https://path.to.stream/channel51.m3u8" },
+        { "name": "قناة 52", "logo": "https://placehold.it/100x100?text=Logo52", "m3u8": "https://path.to.stream/channel52.m3u8" },
+        { "name": "قناة 53", "logo": "https://placehold.it/100x100?text=Logo53", "m3u8": "https://path.to.stream/channel53.m3u8" },
+        { "name": "قناة 54", "logo": "https://placehold.it/100x100?text=Logo54", "m3u8": "https://path.to.stream/channel54.m3u8" },
+        { "name": "قناة 55", "logo": "https://placehold.it/100x100?text=Logo55", "m3u8": "https://path.to.stream/channel55.m3u8" },
+        { "name": "قناة 56", "logo": "https://placehold.it/100x100?text=Logo56", "m3u8": "https://path.to.stream/channel56.m3u8" },
+        { "name": "قناة 57", "logo": "https://placehold.it/100x100?text=Logo57", "m3u8": "https://path.to.stream/channel57.m3u8" },
+        { "name": "قناة 58", "logo": "https://placehold.it/100x100?text=Logo58", "m3u8": "https://path.to.stream/channel58.m3u8" },
+        { "name": "قناة 59", "logo": "https://placehold.it/100x100?text=Logo59", "m3u8": "https://path.to.stream/channel59.m3u8" },
+        { "name": "قناة 60", "logo": "https://placehold.it/100x100?text=Logo60", "m3u8": "https://path.to.stream/channel60.m3u8" },
+        { "name": "قناة 61", "logo": "https://placehold.it/100x100?text=Logo61", "m3u8": "https://path.to.stream/channel61.m3u8" },
+        { "name": "قناة 62", "logo": "https://placehold.it/100x100?text=Logo62", "m3u8": "https://path.to.stream/channel62.m3u8" },
+        { "name": "قناة 63", "logo": "https://placehold.it/100x100?text=Logo63", "m3u8": "https://path.to.stream/channel63.m3u8" },
+        { "name": "قناة 64", "logo": "https://placehold.it/100x100?text=Logo64", "m3u8": "https://path.to.stream/channel64.m3u8" },
+        { "name": "قناة 65", "logo": "https://placehold.it/100x100?text=Logo65", "m3u8": "https://path.to.stream/channel65.m3u8" },
+        { "name": "قناة 66", "logo": "https://placehold.it/100x100?text=Logo66", "m3u8": "https://path.to.stream/channel66.m3u8" },
+        { "name": "قناة 67", "logo": "https://placehold.it/100x100?text=Logo67", "m3u8": "https://path.to.stream/channel67.m3u8" },
+        { "name": "قناة 68", "logo": "https://placehold.it/100x100?text=Logo68", "m3u8": "https://path.to.stream/channel68.m3u8" },
+        { "name": "قناة 69", "logo": "https://placehold.it/100x100?text=Logo69", "m3u8": "https://path.to.stream/channel69.m3u8" },
+        { "name": "قناة 70", "logo": "https://placehold.it/100x100?text=Logo70", "m3u8": "https://path.to.stream/channel70.m3u8" },
+        { "name": "قناة 71", "logo": "https://placehold.it/100x100?text=Logo71", "m3u8": "https://path.to.stream/channel71.m3u8" },
+        { "name": "قناة 72", "logo": "https://placehold.it/100x100?text=Logo72", "m3u8": "https://path.to.stream/channel72.m3u8" },
+        { "name": "قناة 73", "logo": "https://placehold.it/100x100?text=Logo73", "m3u8": "https://path.to.stream/channel73.m3u8" },
+        { "name": "قناة 74", "logo": "https://placehold.it/100x100?text=Logo74", "m3u8": "https://path.to.stream/channel74.m3u8" },
+        { "name": "قناة 75", "logo": "https://placehold.it/100x100?text=Logo75", "m3u8": "https://path.to.stream/channel75.m3u8" },
+        { "name": "قناة 76", "logo": "https://placehold.it/100x100?text=Logo76", "m3u8": "https://path.to.stream/channel76.m3u8" },
+        { "name": "قناة 77", "logo": "https://placehold.it/100x100?text=Logo77", "m3u8": "https://path.to.stream/channel77.m3u8" },
+        { "name": "قناة 78", "logo": "https://placehold.it/100x100?text=Logo78", "m3u8": "https://path.to.stream/channel78.m3u8" },
+        { "name": "قناة 79", "logo": "https://placehold.it/100x100?text=Logo79", "m3u8": "https://path.to.stream/channel79.m3u8" },
+        { "name": "قناة 80", "logo": "https://placehold.it/100x100?text=Logo80", "m3u8": "https://path.to.stream/channel80.m3u8" },
+        { "name": "قناة 81", "logo": "https://placehold.it/100x100?text=Logo81", "m3u8": "https://path.to.stream/channel81.m3u8" },
+        { "name": "قناة 82", "logo": "https://placehold.it/100x100?text=Logo82", "m3u8": "https://path.to.stream/channel82.m3u8" },
+        { "name": "قناة 83", "logo": "https://placehold.it/100x100?text=Logo83", "m3u8": "https://path.to.stream/channel83.m3u8" },
+        { "name": "قناة 84", "logo": "https://placehold.it/100x100?text=Logo84", "m3u8": "https://path.to.stream/channel84.m3u8" },
+        { "name": "قناة 85", "logo": "https://placehold.it/100x100?text=Logo85", "m3u8": "https://path.to.stream/channel85.m3u8" },
+        { "name": "قناة 86", "logo": "https://placehold.it/100x100?text=Logo86", "m3u8": "https://path.to.stream/channel86.m3u8" },
+        { "name": "قناة 87", "logo": "https://placehold.it/100x100?text=Logo87", "m3u8": "https://path.to.stream/channel87.m3u8" },
+        { "name": "قناة 88", "logo": "https://placehold.it/100x100?text=Logo88", "m3u8": "https://path.to.stream/channel88.m3u8" },
+        { "name": "قناة 89", "logo": "https://placehold.it/100x100?text=Logo89", "m3u8": "https://path.to.stream/channel89.m3u8" },
+        { "name": "قناة 90", "logo": "https://placehold.it/100x100?text=Logo90", "m3u8": "https://path.to.stream/channel90.m3u8" },
+        { "name": "قناة 91", "logo": "https://placehold.it/100x100?text=Logo91", "m3u8": "https://path.to.stream/channel91.m3u8" },
+        { "name": "قناة 92", "logo": "https://placehold.it/100x100?text=Logo92", "m3u8": "https://path.to.stream/channel92.m3u8" },
+        { "name": "قناة 93", "logo": "https://placehold.it/100x100?text=Logo93", "m3u8": "https://path.to.stream/channel93.m3u8" },
+        { "name": "قناة 94", "logo": "https://placehold.it/100x100?text=Logo94", "m3u8": "https://path.to.stream/channel94.m3u8" },
+        { "name": "قناة 95", "logo": "https://placehold.it/100x100?text=Logo95", "m3u8": "https://path.to.stream/channel95.m3u8" },
+        { "name": "قناة 96", "logo": "https://placehold.it/100x100?text=Logo96", "m3u8": "https://path.to.stream/channel96.m3u8" },
+        { "name": "قناة 97", "logo": "https://placehold.it/100x100?text=Logo97", "m3u8": "https://path.to.stream/channel97.m3u8" },
+        { "name": "قناة 98", "logo": "https://placehold.it/100x100?text=Logo98", "m3u8": "https://path.to.stream/channel98.m3u8" },
+        { "name": "قناة 99", "logo": "https://placehold.it/100x100?text=Logo99", "m3u8": "https://path.to.stream/channel99.m3u8" },
+        { "name": "قناة 100", "logo": "https://placehold.it/100x100?text=Logo100", "m3u8": "https://path.to.stream/channel100.m3u8" }
+      ]
     },
     {
-        "title": "أفلام",
-        "channels": [
-            {
-                "name": "قناة الأفلام 1",
-                "logo": "https://via.placeholder.com/150?text=Logo+3",
-                "m3u8": "https://example.com/stream3.m3u8"
-            },
-            {
-                "name": "قناة الأفلام 2",
-                "logo": "https://via.placeholder.com/150?text=Logo+4",
-                "m3u8": "https://example.com/stream4.m3u8"
-            }
-            // أضف 100 قناة في هذا القسم
-        ]
-    },
-    // أضف بقية الأقسام هنا مع القنوات
-]
+      "title": "القسم 2",
+      "channels": [
+        { "name": "قناة 1", "logo": "https://placehold.it/100x100?text=Logo1", "m3u8": "https://path.to.stream/channel1.m3u8" },
+        { "name": "قناة 2", "logo": "https://placehold.it/100x100?text=Logo2", "m3u8": "https://path.to.stream/channel2.m3u8" },
+        { "name": "قناة 3", "logo": "https://placehold.it/100x100?text=Logo3", "m3u8": "https://path.to.stream/channel3.m3u8" },
+        { "name": "قناة 4", "logo": "https://placehold.it/100x100?text=Logo4", "m3u8": "https://path.to.stream/channel4.m3u8" },
+        { "name": "قناة 5", "logo": "https://placehold.it/100x100?text=Logo5", "m3u8": "https://path.to.stream/channel5.m3u8" },
+        { "name": "قناة 6", "logo": "https://placehold.it/100x100?text=Logo6", "m3u8": "https://path.to.stream/channel6.m3u8" },
+        { "name": "قناة 7", "logo": "https://placehold.it/100x100?text=Logo7", "m3u8": "https://path.to.stream/channel7.m3u8" },
+        { "name": "قناة 8", "logo": "https://placehold.it/100x100?text=Logo8", "m3u8": "https://path.to.stream/channel8.m3u8" },
+        { "name": "قناة 9", "logo": "https://placehold.it/100x100?text=Logo9", "m3u8": "https://path.to.stream/channel9.m3u8" },
+        { "name": "قناة 10", "logo": "https://placehold.it/100x100?text=Logo10", "m3u8": "https://path.to.stream/channel10.m3u8" },
+        ...
+      ]
+    }
+  ]
+}
