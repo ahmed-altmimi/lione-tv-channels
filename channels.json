@@ -185,404 +185,404 @@
         "stream": "https://cdn.bestream.io:19360/alqanat9/alqanat9.m3u8"
     },
     {
-        "name": "Channel 38",
-        "logo": "https://via.placeholder.com/150?text=Channel+38",
-        "stream": "https://example.com/stream38.m3u8"
+        "name": "Alquran",
+        "logo": "https://i.imgur.com/lqVwrAF.png",
+        "stream": "https://ktv.imamhussain.org/stream/hls/ch1.m3u8"
     },
     {
-        "name": "Channel 39",
-        "logo": "https://via.placeholder.com/150?text=Channel+39",
-        "stream": "https://example.com/stream39.m3u8"
+        "name": "Alquran.iq",
+        "logo": "https://i.imgur.com/lqVwrAF.png",
+        "stream": "https://ktvlive.online/stream/hls/ch1.m3u8"
     },
     {
-        "name": "Channel 40",
+        "name": "Althaqalayn TV",
         "logo": "https://via.placeholder.com/150?text=Channel+40",
-        "stream": "https://example.com/stream40.m3u8"
+        "stream": "http://63b03f7689049.streamlock.net:1935/live/16/playlist.m3u8"
     },
     {
-        "name": "Channel 41",
+        "name": "Althaqalayn TV",
         "logo": "https://via.placeholder.com/150?text=Channel+41",
-        "stream": "https://example.com/stream41.m3u8"
+        "stream": "http://77.36.160.164:1935/live4/thaghalayn/playlist.m3u"
     },
     {
-        "name": "Channel 42",
+        "name": "Althaqalayn TV",
         "logo": "https://via.placeholder.com/150?text=Channel+42",
-        "stream": "https://example.com/stream42.m3u8"
+        "stream": "http://77.36.160.164:1935/live4/thaghalayn/playlist.m3u8"
     },
     {
-        "name": "Channel 43",
-        "logo": "https://via.placeholder.com/150?text=Channel+43",
-        "stream": "https://example.com/stream43.m3u8"
+        "name": "AmozhgaryTV.iq",
+        "logo": "https://i.imgur.com/sseqFsO.png",
+        "stream": "https://media.streambrothers.com:1936/8248/8248/playlist.m3u8"
     },
     {
-        "name": "Channel 44",
-        "logo": "https://via.placeholder.com/150?text=Channel+44",
-        "stream": "https://example.com/stream44.m3u8"
+        "name": "AngelTVArabia",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "stream": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelarabia_all/playlist.m3u8"
     },
     {
-        "name": "Channel 45",
-        "logo": "https://via.placeholder.com/150?text=Channel+45",
-        "stream": "https://example.com/stream45.m3u8"
+        "name": "BayyinatTV",
+        "logo": "https://i.imgur.com/PVQKsjE.png",
+        "stream": "https://nl2.livekadeh.com/hls2/Bayyinat.m3u8"
     },
     {
-        "name": "Channel 46",
-        "logo": "https://via.placeholder.com/150?text=Channel+46",
-        "stream": "https://example.com/stream46.m3u8"
+        "name": "BBCArabic",
+        "logo": "https://i.imgur.com/ScyTG6P.png",
+        "stream": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd"
     },
     {
-        "name": "Channel 47",
-        "logo": "https://via.placeholder.com/150?text=Channel+47",
-        "stream": "https://example.com/stream47.m3u8"
+        "name": "BeitolAbbasTVChannel",
+        "logo": "https://i.imgur.com/s8PfUQy.png",
+        "stream": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8"
     },
     {
-        "name": "Channel 48",
-        "logo": "https://via.placeholder.com/150?text=Channel+48",
-        "stream": "https://example.com/stream48.m3u8"
+        "name": "BeladiSatelliteTV",
+        "logo": "https://i.imgur.com/xpBwbma.png",
+        "stream": "http://95.216.180.111:1935/live/68/playlist.m3u8"
     },
     {
-        "name": "Channel 49",
-        "logo": "https://via.placeholder.com/150?text=Channel+49",
-        "stream": "https://example.com/stream49.m3u8"
+        "name": "BloombergTVEMEALiveEvent",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "stream": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8"
     },
     {
-        "name": "Channel 50",
-        "logo": "https://via.placeholder.com/150?text=Channel+50",
-        "stream": "https://example.com/stream50.m3u8"
+        "name": "CGTNArabic",
+        "logo": "https://i.imgur.com/AkFFrS7.png",
+        "stream": "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8"
     },
     {
-        "name": "Channel 51",
-        "logo": "https://via.placeholder.com/150?text=Channel+51",
-        "stream": "https://example.com/stream51.m3u8"
+        "name": "Channel8",
+        "logo": "https://static.wikia.nocookie.net/haribosky/images/b/bd/Channel_8_Logo_PNG.png/revision/latest?cb=20211023173015\" group-title=\"News\",Channel 8 Kurdish (720p)",
+        "stream": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8"
     },
     {
-        "name": "Channel 52",
-        "logo": "https://via.placeholder.com/150?text=Channel+52",
-        "stream": "https://example.com/stream52.m3u8"
+        "name": "CNBCArabiya",
+        "logo": "https://i.imgur.com/opBXx1K.png\" group-title=\"Business\",CNBC Arabia (1080p)",
+        "stream": "https://ythls.armelin.one/channel/UCsHdPPJXT-yKVTLGkn3DSvQ.m3u8"
     },
     {
-        "name": "Channel 53",
-        "logo": "https://via.placeholder.com/150?text=Channel+53",
-        "stream": "https://example.com/stream53.m3u8"
+        "name": "DijlahTarab",
+        "logo": "https://i.imgur.com/UJqDWVB.png\" group-title=\"Music\",Dijlah Tarab (1080p)",
+        "stream": "https://ghaasiflu.online/tarab/index.m3u8"
     },
     {
-        "name": "Channel 54",
-        "logo": "https://via.placeholder.com/150?text=Channel+54",
-        "stream": "https://example.com/stream54.m3u8"
+        "name": "DijlahTV",
+        "logo": "https://i.imgur.com/kyzH3G5.png\" group-title=\"News\",Dijlah TV (1080p)",
+        "stream": "https://ghaasiflu.online/Dijlah/index.m3u8"
     },
     {
-        "name": "Channel 55",
+        "name": "tvg",
         "logo": "https://via.placeholder.com/150?text=Channel+55",
-        "stream": "https://example.com/stream55.m3u8"
+        "stream": "https://live.ishiacloud.com/haditv.co.uk/dua-channel.m3u8"
     },
     {
-        "name": "Channel 56",
-        "logo": "https://via.placeholder.com/150?text=Channel+56",
-        "stream": "https://example.com/stream56.m3u8"
+        "name": "DubaiOne",
+        "logo": "https://i.imgur.com/Dj16oKL.png",
+        "stream": "https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8"
     },
     {
-        "name": "Channel 57",
-        "logo": "https://via.placeholder.com/150?text=Channel+57",
-        "stream": "https://example.com/stream57.m3u8"
+        "name": "DWArabic",
+        "logo": "https://i.imgur.com/EfKe3ae.png",
+        "stream": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8"
     },
     {
-        "name": "Channel 58",
-        "logo": "https://via.placeholder.com/150?text=Channel+58",
-        "stream": "https://example.com/stream58.m3u8"
+        "name": "EssaidaTV",
+        "logo": "https://www.essaidafm.com/images/radio/logo_ar.png",
+        "stream": "https://essaidatv.dextream.com/hls/stream/index.m3u8"
     },
     {
-        "name": "Channel 59",
-        "logo": "https://via.placeholder.com/150?text=Channel+59",
-        "stream": "https://example.com/stream59.m3u8"
+        "name": "EWTNAfricaAsia",
+        "logo": "https://i.imgur.com/F8ZM25a.png",
+        "stream": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8"
     },
     {
-        "name": "Channel 60",
-        "logo": "https://via.placeholder.com/150?text=Channel+60",
-        "stream": "https://example.com/stream60.m3u8"
+        "name": "GaliKurdistan",
+        "logo": "https://i.imgur.com/Jd9DywP.png",
+        "stream": "https://live.bradosti.net/live/GaliKurdistan_playlist.m3u8"
     },
     {
-        "name": "Channel 61",
-        "logo": "https://via.placeholder.com/150?text=Channel+61",
-        "stream": "https://example.com/stream61.m3u8"
+        "name": "HadiTV3",
+        "logo": "https://i.imgur.com/TXzEtF8.png",
+        "stream": "https://live.ishiacloud.com/haditv.co.uk/haditv3.m3u8"
     },
     {
-        "name": "Channel 62",
-        "logo": "https://via.placeholder.com/150?text=Channel+62",
-        "stream": "https://example.com/stream62.m3u8"
+        "name": "HadiTV1",
+        "logo": "https://i.imgur.com/TXzEtF8.png",
+        "stream": "https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8"
     },
     {
-        "name": "Channel 63",
-        "logo": "https://via.placeholder.com/150?text=Channel+63",
-        "stream": "https://example.com/stream63.m3u8"
+        "name": "HadiTV4",
+        "logo": "https://i.imgur.com/TXzEtF8.png",
+        "stream": "https://live.ishiacloud.com/haditv.co.uk/haditv4.m3u8"
     },
     {
-        "name": "Channel 64",
-        "logo": "https://via.placeholder.com/150?text=Channel+64",
-        "stream": "https://example.com/stream64.m3u8"
+        "name": "HadiTV5",
+        "logo": "https://i.imgur.com/TXzEtF8.png",
+        "stream": "https://live.ishiacloud.com/haditv.co.uk/haditv5.m3u8"
     },
     {
-        "name": "Channel 65",
-        "logo": "https://via.placeholder.com/150?text=Channel+65",
-        "stream": "https://example.com/stream65.m3u8"
+        "name": "HadiTV6",
+        "logo": "https://i.imgur.com/TXzEtF8.png",
+        "stream": "https://live.ishiacloud.com/haditv.co.uk/haditv6.m3u8"
     },
     {
-        "name": "Channel 66",
+        "name": "Hudhud TV",
         "logo": "https://via.placeholder.com/150?text=Channel+66",
-        "stream": "https://example.com/stream66.m3u8"
+        "stream": "http://63b03f7689049.streamlock.net:1935/live/17/playlist.m3u8"
     },
     {
-        "name": "Channel 67",
-        "logo": "https://via.placeholder.com/150?text=Channel+67",
-        "stream": "https://example.com/stream67.m3u8"
+        "name": "ImamAliTV",
+        "logo": "https://i.imgur.com/3ljuok7.png",
+        "stream": "https://ythls.armelin.one/channel/UCiE5ev_voWCwuIKfc0k2hOA.m3u8"
     },
     {
-        "name": "Channel 68",
-        "logo": "https://via.placeholder.com/150?text=Channel+68",
-        "stream": "https://example.com/stream68.m3u8"
+        "name": "ImamAsrTV",
+        "logo": "https://i.imgur.com/SLoSBTh.png",
+        "stream": "ttps://iptv.imamasrtv.com/asrfa/playlist.m3u8"
     },
     {
-        "name": "Channel 69",
-        "logo": "https://via.placeholder.com/150?text=Channel+69",
-        "stream": "https://example.com/stream69.m3u8"
+        "name": "ImamHusseinTV1",
+        "logo": "https://i.imgur.com/pDdUvz7.png",
+        "stream": "https://live.imamhossaintv.com/live/ih1.m3u8"
     },
     {
-        "name": "Channel 70",
-        "logo": "https://via.placeholder.com/150?text=Channel+70",
-        "stream": "https://example.com/stream70.m3u8"
+        "name": "ImamHusseinTV2",
+        "logo": "https://i.imgur.com/IXVSPdJ.png",
+        "stream": "https://live.imamhossaintv.com/live/ih2.m3u8"
     },
     {
-        "name": "Channel 71",
-        "logo": "https://via.placeholder.com/150?text=Channel+71",
-        "stream": "https://example.com/stream71.m3u8"
+        "name": "ImamHusseinTV3",
+        "logo": "https://i.imgur.com/emQRHQZ.png",
+        "stream": "https://live.imamhossaintv.com/live/ih3.m3u8"
     },
     {
-        "name": "Channel 72",
-        "logo": "https://via.placeholder.com/150?text=Channel+72",
-        "stream": "https://example.com/stream72.m3u8"
+        "name": "ImamHusseinTV4",
+        "logo": "https://i.imgur.com/0UYcylY.png",
+        "stream": "https://live.imamhossaintv.com/live/ih4.m3u8"
     },
     {
-        "name": "Channel 73",
-        "logo": "https://via.placeholder.com/150?text=Channel+73",
-        "stream": "https://example.com/stream73.m3u8"
+        "name": "ImamHusseinTV5",
+        "logo": "https://i.imgur.com/Oq2Ve7C.png",
+        "stream": "https://mn-nl.mncdn.com/alzahra/alzahra_hd.smil/playlist.m3u8"
     },
     {
-        "name": "Channel 74",
-        "logo": "https://via.placeholder.com/150?text=Channel+74",
-        "stream": "https://example.com/stream74.m3u8"
+        "name": "ImamHusseinTV6",
+        "logo": "https://i.imgur.com/lqhU0PY.png",
+        "stream": "https://mn-nl.mncdn.com/arbaeen/arbaeen_hd.smil/index.m3u8"
     },
     {
-        "name": "Channel 75",
-        "logo": "https://via.placeholder.com/150?text=Channel+75",
-        "stream": "https://example.com/stream75.m3u8"
+        "name": "INews",
+        "logo": "https://i.imgur.com/9lOuzHQ.png",
+        "stream": "https://live.i-news.tv/hls/stream.m3u8"
     },
     {
-        "name": "Channel 76",
-        "logo": "https://via.placeholder.com/150?text=Channel+76",
-        "stream": "https://example.com/stream76.m3u8"
+        "name": "IshtarTV",
+        "logo": "https://i.imgur.com/qzApokm.png",
+        "stream": "http://ishtar.cdncast.xyz:1935/live/iShtarHD/playlist.m3u8"
     },
     {
-        "name": "Channel 77",
-        "logo": "https://via.placeholder.com/150?text=Channel+77",
-        "stream": "https://example.com/stream77.m3u8"
+        "name": "KarbalaTV",
+        "logo": "https://i.imgur.com/jPykyMf.png",
+        "stream": "https://ythls.armelin.one/channel/UCI4gZRGRdfnfPajdxs8QtPQ.m3u8"
     },
     {
-        "name": "Channel 78",
-        "logo": "https://via.placeholder.com/150?text=Channel+78",
-        "stream": "https://example.com/stream78.m3u8"
+        "name": "KurdChannel",
+        "logo": "https://i.imgur.com/xPwzad9.png",
+        "stream": "https://kurd-channel.ikoflix.com/hls/stream_2.m3u8"
     },
     {
-        "name": "Channel 79",
-        "logo": "https://via.placeholder.com/150?text=Channel+79",
-        "stream": "https://example.com/stream79.m3u8"
+        "name": "Kurdistan24",
+        "logo": "https://i.imgur.com/9QWs2ms.png",
+        "stream": "https://d1x82nydcxndze.cloudfront.net/live/index.m3u8"
     },
     {
-        "name": "Channel 80",
-        "logo": "https://via.placeholder.com/150?text=Channel+80",
-        "stream": "https://example.com/stream80.m3u8"
+        "name": "KurdistanTV",
+        "logo": "https://i.imgur.com/mjQptpc.png",
+        "stream": "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8"
     },
     {
-        "name": "Channel 81",
-        "logo": "https://via.placeholder.com/150?text=Channel+81",
-        "stream": "https://example.com/stream81.m3u8"
+        "name": "KurdMaxShow",
+        "logo": "https://i.imgur.com/XTmyGmL.png",
+        "stream": "https://6476e46b58f91.streamlock.net/liveTrans/SHOW1/playlist.m3u8"
     },
     {
-        "name": "Channel 82",
-        "logo": "https://via.placeholder.com/150?text=Channel+82",
-        "stream": "https://example.com/stream82.m3u8"
+        "name": "KurdMaxSorani",
+        "logo": "https://i.imgur.com/JkK8HG8.png",
+        "stream": "https://6476e46b58f91.streamlock.net/liveTrans/KurdmaxS0rani!/playlist.m3u8"
     },
     {
-        "name": "Channel 83",
-        "logo": "https://via.placeholder.com/150?text=Channel+83",
-        "stream": "https://example.com/stream83.m3u8"
+        "name": "Kurdsat",
+        "logo": "https://i.imgur.com/UAbSwYA.png",
+        "stream": "https://kurdsat.akamaized.net/hls/stream_0.m3u8"
     },
     {
-        "name": "Channel 84",
-        "logo": "https://via.placeholder.com/150?text=Channel+84",
-        "stream": "https://example.com/stream84.m3u8"
+        "name": "MarjaeyatTVArabic",
+        "logo": "https://i.imgur.com/LsYYkUI.png",
+        "stream": "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8"
     },
     {
-        "name": "Channel 85",
-        "logo": "https://via.placeholder.com/150?text=Channel+85",
-        "stream": "https://example.com/stream85.m3u8"
+        "name": "MarjaeyatTVEnglish",
+        "logo": "https://i.imgur.com/Dvf61Jp.png",
+        "stream": "https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8"
     },
     {
-        "name": "Channel 86",
-        "logo": "https://via.placeholder.com/150?text=Channel+86",
-        "stream": "https://example.com/stream86.m3u8"
+        "name": "MarjaeyatTVPersian",
+        "logo": "https://i.imgur.com/fCj05f0.png",
+        "stream": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8"
     },
     {
-        "name": "Channel 87",
-        "logo": "https://via.placeholder.com/150?text=Channel+87",
-        "stream": "https://example.com/stream87.m3u8"
+        "name": "MBC1",
+        "logo": "https://i.imgur.com/CiA3plN.png",
+        "stream": "https://d3o3cim6uzorb4.cloudfront.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8"
     },
     {
-        "name": "Channel 88",
-        "logo": "https://via.placeholder.com/150?text=Channel+88",
-        "stream": "https://example.com/stream88.m3u8"
+        "name": "MBC3",
+        "logo": "https://i.imgur.com/PVt8OPN.png",
+        "stream": "https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8"
     },
     {
-        "name": "Channel 89",
-        "logo": "https://via.placeholder.com/150?text=Channel+89",
-        "stream": "https://example.com/stream89.m3u8"
+        "name": "MBC4",
+        "logo": "https://i.imgur.com/BcXASJp.png",
+        "stream": "https://shls-masr-prod-dub.shahid.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index.m3u8"
     },
     {
-        "name": "Channel 90",
-        "logo": "https://via.placeholder.com/150?text=Channel+90",
-        "stream": "https://example.com/stream90.m3u8"
+        "name": "MBCBollywood",
+        "logo": "https://i.imgur.com/TTAGFHG.png",
+        "stream": "https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8"
     },
     {
-        "name": "Channel 91",
-        "logo": "https://via.placeholder.com/150?text=Channel+91",
-        "stream": "https://example.com/stream91.m3u8"
+        "name": "MBCDrama",
+        "logo": "https://i.imgur.com/g5PWnqp.png",
+        "stream": "https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m3u8"
     },
     {
-        "name": "Channel 92",
-        "logo": "https://via.placeholder.com/150?text=Channel+92",
-        "stream": "https://example.com/stream92.m3u8"
+        "name": "MBCFM",
+        "logo": "https://i.imgur.com/lF8UxvR.png",
+        "stream": "https://mbcfm-riyadh-prod-dub.shahid.net/out/v1/69c8a03f507e422f99cf5c07291c9e3a/index.m3u"
     },
     {
-        "name": "Channel 93",
-        "logo": "https://via.placeholder.com/150?text=Channel+93",
-        "stream": "https://example.com/stream93.m3u8"
+        "name": "NationalGeographicAbuDhabi",
+        "logo": "https://i.imgur.com/fNA00VF.png",
+        "stream": "https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/index.m3u8"
     },
     {
-        "name": "Channel 94",
-        "logo": "https://via.placeholder.com/150?text=Channel+94",
-        "stream": "https://example.com/stream94.m3u8"
+        "name": "NRTTV",
+        "logo": "https://i.imgur.com/uGKGtbW.png",
+        "stream": "https://media.streambrothers.com:1936/8226/8226/playlist.m3u8"
     },
     {
-        "name": "Channel 95",
-        "logo": "https://via.placeholder.com/150?text=Channel+95",
-        "stream": "https://example.com/stream95.m3u8"
+        "name": "NUBARPlusPlus",
+        "logo": "https://i.ibb.co/XpgWb6B/IMG-20230628-140407.jpg",
+        "stream": "http://stream.nubar.tv:1935/private/NUBARPlus/playlist.m3u8"
     },
     {
-        "name": "Channel 96",
-        "logo": "https://via.placeholder.com/150?text=Channel+96",
-        "stream": "https://example.com/stream96.m3u8"
+        "name": "NUBARtv",
+        "logo": "https://i.imgur.com/h4LWHr5.png",
+        "stream": "http://stream.nubar.tv:1935/private/NUBARtv/playlist.m3u8"
     },
     {
-        "name": "Channel 97",
-        "logo": "https://via.placeholder.com/150?text=Channel+97",
-        "stream": "https://example.com/stream97.m3u8"
+        "name": "PayamTV",
+        "logo": "https://i.imgur.com/qySEibb.png",
+        "stream": "https://5ab29cc78f681.streamlock.net/PayamTV/livestream/playlist.m3u8"
     },
     {
-        "name": "Channel 98",
-        "logo": "https://via.placeholder.com/150?text=Channel+98",
-        "stream": "https://example.com/stream98.m3u8"
+        "name": "PMC",
+        "logo": "https://i.imgur.com/AbrHI7K.png",
+        "stream": "https://hls.pmchd.live/hls/stream.m3u8"
     },
     {
-        "name": "Channel 99",
-        "logo": "https://via.placeholder.com/150?text=Channel+99",
-        "stream": "https://example.com/stream99.m3u8"
+        "name": "PMCRoyale",
+        "logo": "https://i.imgur.com/kuYMKgG.png",
+        "stream": "https://rohls.pmc.live/hls/stream.m3u8"
     },
     {
-        "name": "Channel 100",
-        "logo": "https://via.placeholder.com/150?text=Channel+100",
-        "stream": "https://example.com/stream100.m3u8"
+        "name": "RTArabic",
+        "logo": "https://i.imgur.com/G8vGrn1.png",
+        "stream": "https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8"
     },
     {
-        "name": "Channel 101",
-        "logo": "https://via.placeholder.com/150?text=Channel+101",
-        "stream": "https://example.com/stream101.m3u8"
+        "name": "RudawTV",
+        "logo": "https://i.imgur.com/G8vGrn1.png",
+        "stream": "https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8"
     },
     {
-        "name": "Channel 102",
-        "logo": "https://via.placeholder.com/150?text=Channel+102",
-        "stream": "https://example.com/stream102.m3u8"
+        "name": "RudawTV",
+        "logo": "https://i.imgur.com/Zo3IWOn.png",
+        "stream": "https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8"
     },
     {
-        "name": "Channel 103",
-        "logo": "https://via.placeholder.com/150?text=Channel+103",
-        "stream": "https://example.com/stream103.m3u8"
+        "name": "Safeer TV",
+        "logo": "https://i.imgur.com/Zo3IWOn.png",
+        "stream": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8"
     },
     {
-        "name": "Channel 104",
+        "name": "Safeer TV",
         "logo": "https://via.placeholder.com/150?text=Channel+104",
-        "stream": "https://example.com/stream104.m3u8"
+        "stream": "ttps://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8"
     },
     {
-        "name": "Channel 105",
-        "logo": "https://via.placeholder.com/150?text=Channel+105",
-        "stream": "https://example.com/stream105.m3u8"
+        "name": "SkyNewsArabia",
+        "logo": "https://i.imgur.com/SvjU4h6.png",
+        "stream": "https://ythls.armelin.one/channel/UCIJXOvggjKtCagMfxvcCzAA.m3u8"
     },
     {
-        "name": "Channel 106",
-        "logo": "https://via.placeholder.com/150?text=Channel+106",
-        "stream": "https://example.com/stream106.m3u8"
+        "name": "SkyNewsArabiaVertical",
+        "logo": "https://i.imgur.com/FjtzQQs.png",
+        "stream": "https://stream.skynewsarabia.com/vertical/vertical.m3u8"
     },
     {
-        "name": "Channel 107",
-        "logo": "https://via.placeholder.com/150?text=Channel+107",
-        "stream": "https://example.com/stream107.m3u8"
+        "name": "SpedaTV",
+        "logo": "https://i.imgur.com/va3TVSd.jpg",
+        "stream": "https://speda.dwasat.com/upload/images/spedahd.m3u8"
     },
     {
-        "name": "Channel 108",
-        "logo": "https://via.placeholder.com/150?text=Channel+108",
-        "stream": "https://example.com/stream108.m3u8"
+        "name": "& \"C:/Users/Ahmed AL-Tmimi/AppData/Local/Microsoft/WindowsApps/python3.11.exe\" \"c:/Users/Ahmed AL-Tmimi/Desktop/lione-tv/change all link.py\"",
+        "logo": "https://i.imgur.com/va3TVSd.jpg",
+        "stream": "https://speda.dwasat.com/upload/images/spedahd.m3u8"
     },
     {
-        "name": "Channel 109",
-        "logo": "https://via.placeholder.com/150?text=Channel+109",
-        "stream": "https://example.com/stream109.m3u8"
+        "name": "QuranTV",
+        "logo": "https://i.ibb.co/qjsV044/IMG-20230628-141804.jpg",
+        "stream": "https://cdn1.karwan.tv/spi-quran/index.m3u8"
     },
     {
-        "name": "Channel 110",
-        "logo": "https://via.placeholder.com/150?text=Channel+110",
-        "stream": "https://example.com/stream110.m3u8"
+        "name": "SPITV",
+        "logo": "https://i.ibb.co/sjQMzjf/IMG-20230628-141212.jpg",
+        "stream": "https://cdn1.karwan.tv/spi-tv/index.m3u8"
     },
     {
-        "name": "Channel 111",
-        "logo": "https://via.placeholder.com/150?text=Channel+111",
-        "stream": "https://example.com/stream111.m3u8"
+        "name": "TRTArabi",
+        "logo": "https://i.imgur.com/dEfI2M9.png",
+        "stream": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8"
     },
     {
-        "name": "Channel 112",
-        "logo": "https://via.placeholder.com/150?text=Channel+112",
-        "stream": "https://example.com/stream112.m3u8"
+        "name": "VEInternacionalEuropeAsia",
+        "logo": "https://i.imgur.com/ow1HArj.png",
+        "stream": "https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8"
     },
     {
-        "name": "Channel 113",
-        "logo": "https://via.placeholder.com/150?text=Channel+113",
-        "stream": "https://example.com/stream113.m3u8"
+        "name": "UTV",
+        "logo": "https://i.imgur.com/9qFHjnu.png",
+        "stream": "https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8"
     },
     {
-        "name": "Channel 114",
-        "logo": "https://via.placeholder.com/150?text=Channel+114",
-        "stream": "https://example.com/stream114.m3u8"
+        "name": "WaarTV",
+        "logo": "https://i.imgur.com/rK0y02d.png",
+        "stream": "'https://ca-rt.onetv.app/Waar/index-0.m3u8"
     },
     {
-        "name": "Channel 115",
-        "logo": "https://via.placeholder.com/150?text=Channel+115",
-        "stream": "https://example.com/stream115.m3u8"
+        "name": "Wanasah",
+        "logo": "https://i.imgur.com/nLtiXNf.png",
+        "stream": "https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8"
     },
     {
-        "name": "Channel 116",
-        "logo": "https://via.placeholder.com/150?text=Channel+116",
-        "stream": "https://example.com/stream116.m3u8"
+        "name": "ZagrosTV",
+        "logo": "https://i.imgur.com/9Mspf32.png",
+        "stream": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8"
     },
     {
-        "name": "Channel 117",
-        "logo": "https://via.placeholder.com/150?text=Channel+117",
-        "stream": "https://example.com/stream117.m3u8"
+        "name": "ZarokTV",
+        "logo": "https://i.imgur.com/o0eevnb.png",
+        "stream": "https://zindisorani.zaroktv.com.tr/hls/stream.m3u8"
     },
     {
         "name": "Channel 118",
