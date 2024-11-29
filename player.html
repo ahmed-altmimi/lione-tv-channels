@@ -3,133 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lione TV - Player</title>
+    <title>player</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to left, #141e30, #243b55);
-            color: #fff;
-            margin: 0;
-            padding: 0;
+            background: #111;
+            color: white;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             height: 100vh;
+            margin: 0;
         }
 
         .player-container {
-            background-color: #000;
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+            position: relative;
             width: 80%;
             max-width: 900px;
-            position: relative;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
         }
 
         video {
             width: 100%;
-            border-radius: 8px;
-            background-color: #000;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
         }
 
-        .controls-container {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 15px;
-        }
-
-        button {
-            padding: 10px 15px;
-            font-size: 1em;
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: transform 0.2s, background-color 0.3s;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-            transform: scale(1.1);
-        }
-
-        .close-btn {
+        .back-button {
             position: absolute;
             top: 10px;
-            right: 10px;
-            background-color: #ff4d4d;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            left: 10px;
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
-            color: #fff;
-            font-size: 1.5em;
-            border: none;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s;
         }
 
-        .close-btn:hover {
-            background-color: #d63030;
+        .back-button:hover {
+            background-color: #666;
         }
+
+        /* الإعلان داخل المشغل */
+        .ads-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .ads-container iframe {
+            width: 300px;
+            height: 250px;
+            border: none;
+        }
+
+        .ads-container.active {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .play-button-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
     <div class="player-container">
-        <button class="close-btn" onclick="closePlayer()">×</button>
-        <video id="video-player" controls></video>
-        <div class="controls-container">
-            <button onclick="toggleMute()">Toggle Mute</button>
-            <button onclick="toggleFullscreen()">Fullscreen</button>
+        <a href="index.html" class="back-button">الرجوع إلى الصفحة الرئيسية</a>
+        <div class="ads-container" id="ads-container">
+            <div class="ad-content">
+                <!-- ضع هنا كود الإعلان من Google AdSense -->
+                <iframe src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-XXXXXXXXXXXXXX&output=html&h=250&slotname=XXXXXXXXXX&adk=1234567890" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+
+        <!-- Video player -->
+        <video id="movie-player" controls>
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Play Button for triggering the ad -->
+        <div class="play-button-container" id="play-button-container">
+            <button id="play-button">شغل الفيديو</button>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
-        // Get video player and query parameters
-        const videoPlayer = document.getElementById('video-player');
         const urlParams = new URLSearchParams(window.location.search);
-        const streamUrl = urlParams.get('stream');
+        const streamUrl = urlParams.get('stream'); // Get the stream URL from the query parameter
 
-        // Function to close the player
-        function closePlayer() {
-            window.history.back();
-        }
+        const playButton = document.getElementById('play-button');
+        const videoPlayer = document.getElementById('movie-player');
+        const adsContainer = document.getElementById('ads-container');
+        const playButtonContainer = document.getElementById('play-button-container');
 
-        // Initialize HLS.js if stream is HLS
-        if (Hls.isSupported() && streamUrl) {
-            const hls = new Hls();
-            hls.loadSource(streamUrl);
-            hls.attachMedia(videoPlayer);
-            hls.on(Hls.Events.ERROR, (event, data) => {
-                console.error('HLS.js error:', data);
-                alert('Error loading stream.');
-            });
-        } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
-            videoPlayer.src = streamUrl;
-        } else {
-            alert('Your browser does not support HLS.');
-        }
+        // When user clicks on play button, show the ad
+        playButton.addEventListener('click', function() {
+            // Show the ad
+            adsContainer.classList.add('active');
 
-        // Toggle Mute
-        function toggleMute() {
-            videoPlayer.muted = !videoPlayer.muted;
-        }
+            // Hide the play button
+            playButtonContainer.style.display = 'none';
 
-        // Toggle Fullscreen
-        function toggleFullscreen() {
-            if (videoPlayer.requestFullscreen) {
-                videoPlayer.requestFullscreen();
-            } else if (videoPlayer.webkitRequestFullscreen) {
-                videoPlayer.webkitRequestFullscreen();
-            } else if (videoPlayer.msRequestFullscreen) {
-                videoPlayer.msRequestFullscreen();
+            // Start the video after 5 seconds (you can adjust this)
+            setTimeout(() => {
+                adsContainer.classList.remove('active');
+                playVideo();
+            }, 5000); // Show ad for 5 seconds before playing the video
+        });
+
+        function playVideo() {
+            if (streamUrl) {
+                if (streamUrl.endsWith('.m3u8')) {
+                    if (Hls.isSupported()) {
+                        // For m3u8 streaming using hls.js
+                        const hls = new Hls();
+                        hls.loadSource(streamUrl);
+                        hls.attachMedia(videoPlayer);
+                        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                            videoPlayer.play();
+                        });
+                    } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+                        // For native HLS support in Safari or other native m3u8 players
+                        videoPlayer.src = streamUrl;
+                        videoPlayer.addEventListener('loadedmetadata', function() {
+                            videoPlayer.play();
+                        });
+                    } else {
+                        alert('This browser does not support HLS streaming.');
+                    }
+                } else {
+                    // For direct video links (mp4, mkv, etc.)
+                    videoPlayer.src = streamUrl;
+                    videoPlayer.addEventListener('loadedmetadata', function() {
+                        videoPlayer.play();
+                    });
+                }
+            } else {
+                alert('Failed to load video.');
             }
         }
     </script>
