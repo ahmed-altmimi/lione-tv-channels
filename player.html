@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lione TV - Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to left, #141e30, #243b55);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .player-container {
+            background-color: #000;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+            width: 80%;
+            max-width: 900px;
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+            background-color: #000;
+        }
+
+        .controls-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ff4d4d;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.5em;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .close-btn:hover {
+            background-color: #d63030;
+        }
+    </style>
+</head>
+<body>
+    <div class="player-container">
+        <button class="close-btn" onclick="closePlayer()">×</button>
+        <video id="video-player" controls></video>
+        <div class="controls-container">
+            <button onclick="toggleMute()">Toggle Mute</button>
+            <button onclick="toggleFullscreen()">Fullscreen</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        // Get video player and query parameters
+        const videoPlayer = document.getElementById('video-player');
+        const urlParams = new URLSearchParams(window.location.search);
+        const streamUrl = urlParams.get('stream');
+
+        // Function to close the player
+        function closePlayer() {
+            window.history.back();
+        }
+
+        // Initialize HLS.js if stream is HLS
+        if (Hls.isSupported() && streamUrl) {
+            const hls = new Hls();
+            hls.loadSource(streamUrl);
+            hls.attachMedia(videoPlayer);
+            hls.on(Hls.Events.ERROR, (event, data) => {
+                console.error('HLS.js error:', data);
+                alert('Error loading stream.');
+            });
+        } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+            videoPlayer.src = streamUrl;
+        } else {
+            alert('Your browser does not support HLS.');
+        }
+
+        // Toggle Mute
+        function toggleMute() {
+            videoPlayer.muted = !videoPlayer.muted;
+        }
+
+        // Toggle Fullscreen
+        function toggleFullscreen() {
+            if (videoPlayer.requestFullscreen) {
+                videoPlayer.requestFullscreen();
+            } else if (videoPlayer.webkitRequestFullscreen) {
+                videoPlayer.webkitRequestFullscreen();
+            } else if (videoPlayer.msRequestFullscreen) {
+                videoPlayer.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
